@@ -13,11 +13,12 @@ let addresses = [
 	'www.csgo.com:2087#节点名放在井号之后即可',
 	'icook.hk#若不带端口号默认端口为443',
 	'104.17.152.41#IP也可以',
-	'107.189.7.254'
+	'107.189.7.254',
+	'104.28.152.145'
 	//'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6也OK',
 ];
 
-let sub = '107.189.7.254';// 'trojan.fxxk.dedyn.io' 
+let sub = '';// 'trojan.fxxk.dedyn.io' 
 let subconverter = 'apiurl.v1.mk';// clash订阅转换后端，目前使用肥羊的订阅转换功能。自带虚假节点信息防泄露
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"; //订阅配置文件
 let RproxyIP = 'false';
